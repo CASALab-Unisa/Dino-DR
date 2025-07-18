@@ -28,7 +28,7 @@ If you use this code or the pretrained models in your research or applications, 
 
 > Cascone, L., Di Biasi, L., Genito, G., & Nappi, M.  
 > *Dino2-DR: A Trustworthy and Explainable Vision Transformer for Cross-Domain Diabetic Retinopathy Grading*  
-> Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)
+> Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV),
 > 2025
 
 ### BibTeX
