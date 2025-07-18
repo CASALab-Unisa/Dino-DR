@@ -1,7 +1,8 @@
-# Dino-DR
-Dino2-DR: A Trustworthy and Explainable Vision Transformer for Cross-Domain Diabetic Retinopathy Grading
+# Dino2-DR
+This repository contains the official implementation and pretrained models from the work  
+**_Dino2-DR: A Trustworthy and Explainable Vision Transformer for Cross-Domain Diabetic Retinopathy Grading_**
 
-This repository provides the complete training pipeline and pretrained weights for the Dino2-DR model, developed as part of the official thesis work. The released models are ready for inference under the two evaluation protocols introduced in the paper: **Leave-One-Domain-Out (LODO)** and **Fixed-Source Multi-Target (FSMT)**.
+It includes the full training pipeline and ready-to-use weights for inference under the two evaluation protocols described in the paper:
 
-- In the **LODO** protocol, six models were trained using five out of six public diabetic retinopathy datasets (**APTOS**, **DeepDRiD**, **FGADR**, **IDRiD**, **Messidor2**, **RLDR**), holding one domain out at each iteration for out-of-distribution testing.  
-- In the **FSMT** protocol, a single model was trained on the largest and most diverse datasets, **EyePACS** and **DDR**, and evaluated on all remaining domains.
+- **Leave-One-Domain-Out (LODO):** Six models trained on five out of six public diabetic retinopathy datasets (**APTOS**, **DeepDRiD**, **FGADR**, **IDRiD**, **Messidor2**, **RLDR**), each time leaving one domain out for testing.  
+- **Fixed-Source Multi-Target (FSMT):** A single model trained on the two largest and most diverse datasets, **EyePACS** and **DDR**, then evaluated on the six held-out domains.
