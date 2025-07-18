@@ -9,6 +9,14 @@ It includes the full training pipeline and ready-to-use weights for inference un
 - **Leave-One-Domain-Out (LODO):** Six models trained on five out of six public diabetic retinopathy datasets (**APTOS**, **DeepDRiD**, **FGADR**, **IDRiD**, **Messidor2**, **RLDR**), each time leaving one domain out for testing.  
 - **Fixed-Source Multi-Target (FSMT):** A single model trained on the two largest and most diverse datasets, **EyePACS** and **DDR**, then evaluated on the six held-out domains.
 
+## 📦 Installation
+
+To install the required dependencies, run:
+
+```bash
+pip install -r requirements.txt
+
+
 ## 📌 Reference
 
 If you use this code or the pretrained models in your research or applications, **please cite the following paper**:
