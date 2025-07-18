@@ -1,6 +1,6 @@
 # Dino2-DR
 
-This repository contains the official implementation and pretrained models from the work  
+This repository contains the official implementation and pretrained models from the paper  
 **_Dino2-DR: A Trustworthy and Explainable Vision Transformer for Cross-Domain Diabetic Retinopathy Grading_**,  
 accepted at the [BISCUIT Workshop @ ICCV 2025](https://sites.google.com/di.uniroma1.it/biscuit-workshop-1).
 
